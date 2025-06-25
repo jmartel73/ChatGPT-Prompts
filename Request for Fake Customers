@@ -1,0 +1,39 @@
+Here’s a summary of the requirements you provided for generating the fake company data:
+
+Quantity & Structure:
+
+Generate 50 fake company names total.
+
+Deliver data in a CSV file format.
+
+Additional Fields:
+
+For each company, include:
+
+Email Address (realistic but fake, based on the company name and random domains)
+
+Phone Number (U.S.-style, randomly generated)
+
+Full Address, split into the following columns:
+
+Address Line 1 (random street number + common street name)
+
+Address Line 2 (random suite number)
+
+City (chosen from a fixed list of real U.S. cities)
+
+State (full name, matched to the chosen city)
+
+Country (always “United States”)
+
+Zip Code (real ZIP code corresponding to the city)
+
+Data Quality Preferences:
+
+Use real U.S. cities.
+
+Ensure state names are spelled out in full.
+
+Match ZIP codes accurately to the cities.
+
+Standardize country as "United States".
