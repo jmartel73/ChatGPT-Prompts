@@ -37,3 +37,82 @@ Ensure state names are spelled out in full.
 Match ZIP codes accurately to the cities.
 
 Standardize country as "United States".
+
+
+
+
+
+____________________________________________________________________________________
+
+
+
+General Formatting and Output
+
+Deliver data files (e.g., fake company lists) in Excel-compatible CSV format.
+
+CSVs must include consistent column headers:
+Company Name, Email Address, Phone Number, Address Line 1, Address Line 2, City, State, Country, Zip Code
+
+All addresses must be realistic and U.S.-based:
+
+Use real U.S. cities and ZIP codes that accurately match each other.
+
+States must be spelled out in full (e.g., “California,” not “CA”).
+
+Country should always be "United States".
+
+Company Name Rules
+
+Each company name consists of two parts:
+
+A unique first word (never repeated across the same dataset).
+
+A second word selected from a pool of professional business terms (e.g., “Solutions,” “Industries,” “Holdings,” “Consulting,” etc.).
+
+The first word should:
+
+Be a real English word, not made up.
+
+Sound natural for a company name (e.g., “Summit,” “Harbor,” “Frontier,” etc.).
+
+Be unique within each batch (no duplicates).
+
+The second word should be varied but can repeat across records (e.g., multiple companies might use “Solutions”).
+
+Contact Information
+
+Email addresses:
+
+Based on the company name (e.g., summitventures@company.org).
+
+Domains randomized among: @gmail.com, @outlook.com, @corp.net, @business.io, @company.org, @enterprise.com.
+
+Phone numbers:
+
+Realistic U.S.-style: (XXX) XXX-XXXX, generated randomly.
+
+Addresses:
+
+Address Line 1: random street number + real-sounding street name.
+
+Address Line 2: “Suite” followed by a random 3-digit number.
+
+Data Quality Requirements
+
+Each dataset should contain 50 total records.
+
+Cities and ZIP codes should be diverse, not heavily concentrated in one state or region.
+
+Must avoid repeating or reusing the same “first word” across companies within the same file.
+
+Generated company names should sound plausible for real businesses (no fantasy-style or nonsensical words).
+
+Stylistic and Technical Preferences
+
+No emojis in responses.
+
+Keep responses professional and clearly structured.
+
+Generated files should be clean, exportable, and fully compatible with Excel.
+
+If additional batches are generated, they must continue using unique first words (i.e., no overlap with prior CSVs).
